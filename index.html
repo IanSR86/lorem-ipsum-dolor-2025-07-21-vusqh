@@ -3,29 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lorem ipsum dolor</title>
     <meta name="description" content="Lorem ipsum dolor - Modern solutions for your business needs">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
 </head>
 <body class="font-['Inter'] antialiased bg-white text-gray-900">
     <header class="fixed w-full bg-white/95 backdrop-blur-sm z-50 border-b border-gray-100">
         <nav class="container mx-auto px-6 py-4">
             <div class="flex items-center justify-between">
-                <a href="/" class="text-2xl font-bold text-gray-900">Lorem ipsum</a>
+                <a href="https://IanSR86.github.io/lorem-ipsum-dolor-2025-07-21-vusqh" class="text-2xl font-bold text-gray-900 hover:text-indigo-600 transition-colors duration-300">Lorem ipsum</a>
+                
+                <!-- Desktop Menu -->
                 <div class="hidden md:flex space-x-8">
-                    <a href="#features" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">Features</a>
-                    <a href="#solutions" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">Solutions</a>
-                    <a href="#contact" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">Contact</a>
+                    <a href="#features" class="text-gray-600 hover:text-indigo-600 transition-colors duration-300">Features</a>
+                    <a href="#solutions" class="text-gray-600 hover:text-indigo-600 transition-colors duration-300">Solutions</a>
+                    <a href="#about" class="text-gray-600 hover:text-indigo-600 transition-colors duration-300">About</a>
+                    <a href="#testimonials" class="text-gray-600 hover:text-indigo-600 transition-colors duration-300">Testimonials</a>
+                    <a href="#faq" class="text-gray-600 hover:text-indigo-600 transition-colors duration-300">FAQ</a>
+                    <a href="#contact" class="text-gray-600 hover:text-indigo-600 transition-colors duration-300">Contact</a>
                 </div>
-                <button class="bg-indigo-600 text-white px-6 py-2 rounded-full hover:bg-indigo-700 transition-colors duration-300 hidden md:block">
+
+                <button class="bg-indigo-600 text-white px-6 py-2 rounded-full hover:bg-indigo-700 transition-all duration-300 transform hover:scale-105 hidden md:block">
                     Get Started
                 </button>
-                <button class="md:hidden text-gray-600">
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"/>
-                    </svg>
+
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-button md:hidden" aria-label="Toggle menu">
+                    <i class="fas fa-bars text-2xl text-gray-600"></i>
                 </button>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div class="mobile-menu hidden md:hidden mt-4 bg-white rounded-lg shadow-lg absolute left-0 right-0 p-4">
+                <div class="flex flex-col space-y-4">
+                    <a href="#features" class="text-gray-600 hover:text-indigo-600 transition-colors duration-300 py-2">Features</a>
+                    <a href="#solutions" class="text-gray-600 hover:text-indigo-600 transition-colors duration-300 py-2">Solutions</a>
+                    <a href="#about" class="text-gray-600 hover:text-indigo-600 transition-colors duration-300 py-2">About</a>
+                    <a href="#testimonials" class="text-gray-600 hover:text-indigo-600 transition-colors duration-300 py-2">Testimonials</a>
+                    <a href="#faq" class="text-gray-600 hover:text-indigo-600 transition-colors duration-300 py-2">FAQ</a>
+                    <a href="#contact" class="text-gray-600 hover:text-indigo-600 transition-colors duration-300 py-2">Contact</a>
+                    <button class="bg-indigo-600 text-white px-6 py-2 rounded-full hover:bg-indigo-700 transition-all duration-300 transform hover:scale-105">
+                        Get Started
+                    </button>
+                </div>
             </div>
         </nav>
     </header>
@@ -34,18 +69,18 @@
         <section class="pt-32 pb-24 bg-gradient-to-b from-indigo-50 to-white">
             <div class="container mx-auto px-6">
                 <div class="max-w-4xl mx-auto text-center">
-                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-8">
-                        Lorem ipsum dolor
+                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-8 animate-fade-in">
+                        Transform Your Business with Intelligent Solutions
                     </h1>
                     <p class="text-xl text-gray-600 mb-12 leading-relaxed">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Empower your organization with cutting-edge technology that drives efficiency, innovation, and growth. Our platform helps businesses achieve up to 45% increased productivity and 60% cost savings.
                     </p>
                     <div class="flex flex-col sm:flex-row justify-center gap-4">
-                        <button class="bg-indigo-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-indigo-700 transform hover:scale-105 transition-all duration-300">
-                            Get Started Now
+                        <button class="bg-indigo-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-indigo-700 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
+                            Start Free Trial
                         </button>
-                        <button class="bg-white text-indigo-600 px-8 py-4 rounded-full text-lg font-semibold border-2 border-indigo-600 hover:bg-indigo-50 transition-colors duration-300">
-                            Learn More
+                        <button class="bg-white text-indigo-600 px-8 py-4 rounded-full text-lg font-semibold border-2 border-indigo-600 hover:bg-indigo-50 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
+                            Schedule Demo
                         </button>
                     </div>
                 </div>
@@ -54,82 +89,235 @@
 
         <section id="features" class="py-24 bg-white">
             <div class="container mx-auto px-6">
-                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Key Features</h2>
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Powerful Features for Modern Businesses</h2>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
-                    <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102">
                         <div class="w-12 h-12 bg-indigo-100 rounded-full flex items-center justify-center mb-6">
                             <svg class="w-6 h-6 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
                             </svg>
                         </div>
-                        <h3 class="text-xl font-semibold mb-4">Feature 1</h3>
+                        <h3 class="text-xl font-semibold mb-4">Automated Workflow</h3>
                         <p class="text-gray-600 leading-relaxed">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Streamline your operations with AI-powered automation that reduces manual tasks by 80% and eliminates human error.
                         </p>
                     </div>
-                    <!-- Repeat similar feature cards 2x -->
-                </div>
-            </div>
-        </section>
+                    
+                    <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102">
+                        <div class="w-12 h-12 bg-indigo-100 rounded-full flex items-center justify-center mb-6">
+                            <svg class="w-6 h-6 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-4">Real-time Analytics</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            Make data-driven decisions with comprehensive analytics dashboards providing instant insights into your business metrics.
+                        </p>
+                    </div>
 
-        <section class="py-24 bg-indigo-900 text-white">
-            <div class="container mx-auto px-6">
-                <div class="max-w-3xl mx-auto text-center">
-                    <h2 class="text-3xl md:text-4xl font-bold mb-8">Ready to Get Started?</h2>
-                    <p class="text-lg text-indigo-200 mb-12">
-                        Join thousands of satisfied customers who trust our solution.
-                    </p>
-                    <button class="bg-white text-indigo-900 px-8 py-4 rounded-full text-lg font-semibold hover:bg-indigo-50 transform hover:scale-105 transition-all duration-300">
-                        Contact Us Now
-                    </button>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer class="bg-gray-900 text-white py-16">
-        <div class="container mx-auto px-6">
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
-                <div>
-                    <h3 class="text-xl font-bold mb-4">Lorem ipsum</h3>
-                    <p class="text-gray-400">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    </p>
-                </div>
-                <div>
-                    <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
-                    <ul class="space-y-2">
-                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">About</a></li>
-                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Features</a></li>
-                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Contact</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h4 class="text-lg font-semibold mb-4">Legal</h4>
-                    <ul class="space-y-2">
-                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Privacy Policy</a></li>
-                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Terms of Service</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h4 class="text-lg font-semibold mb-4">Connect</h4>
-                    <div class="flex space-x-4">
-                        <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">
-                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
-                        </a>
-                        <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">
-                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg>
-                        </a>
-                        <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">
-                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
-                        </a>
+                    <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102">
+                        <div class="w-12 h-12 bg-indigo-100 rounded-full flex items-center justify-center mb-6">
+                            <svg class="w-6 h-6 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-4">Enterprise Security</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            Bank-grade encryption and compliance with industry standards ensure your data remains protected 24/7.
+                        </p>
                     </div>
                 </div>
             </div>
-            <div class="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
-                <p>&copy; 2024 Lorem ipsum dolor. All rights reserved.</p>
+        </section>
+
+        <section id="about" class="py-24 bg-gray-50">
+            <div class="container mx-auto px-6">
+                <div class="max-w-3xl mx-auto">
+                    <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">About Us</h2>
+                    <div class="space-y-8">
+                        <p class="text-lg text-gray-700 leading-relaxed">
+                            Founded in 2018, Lorem ipsum emerged from a simple vision: to make enterprise-grade technology accessible to businesses of all sizes. Our founders, having experienced the challenges of digital transformation firsthand, set out to create a solution that would revolutionize how companies operate in the digital age.
+                        </p>
+                        <p class="text-lg text-gray-700 leading-relaxed">
+                            Today, we're driven by our mission to empower organizations through innovative technology solutions. Our core values of transparency, continuous innovation, and customer success guide everything we do. With a team of over 100 experts worldwide, we're committed to helping businesses thrive in an increasingly digital world.
+                        </p>
+                    </div>
+                </div>
             </div>
-        </div>
-    </footer>
+        </section>
+
+        <section id="testimonials" class="py-24 bg-white">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">What Our Clients Say</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                    <div class="bg-gray-50 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102">
+                        <div class="flex items-center mb-4">
+                            <span class="text-yellow-400">★★★★★</span>
+                        </div>
+                        <p class="text-gray-700 mb-6">"Implementation was seamless, and we saw immediate results. Our processing time decreased by 65% within the first month."</p>
+                        <div>
+                            <p class="font-semibold">Sarah Johnson</p>
+                            <p class="text-gray-600">CTO, TechCorp Solutions</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-50 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102">
+                        <div class="flex items-center mb-4">
+                            <span class="text-yellow-400">★★★★★</span>
+                        </div>
+                        <p class="text-gray-700 mb-6">"The automated workflow feature has transformed how we handle customer requests. We've reduced response time by 80% and improved customer satisfaction scores significantly."</p>
+                        <div>
+                            <p class="font-semibold">Michael Chang</p>
+                            <p class="text-gray-600">Operations Director, Global Logistics Inc.</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-50 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102">
+                        <div class="flex items-center mb-4">
+                            <span class="text-yellow-400">★★★★★</span>
+                        </div>
+                        <p class="text-gray-700 mb-6">"The real-time analytics have given us unprecedented insight into our operations. We've optimized our resource allocation and increased profitability by 40%."</p>
+                        <div>
+                            <p class="font-semibold">Emily Rodriguez</p>
+                            <p class="text-gray-600">CEO, Innovative Start-up</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-50 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102">
+                        <div class="flex items-center mb-4">
+                            <span class="text-yellow-400">★★★★★</span>
+                        </div>
+                        <p class="text-gray-700 mb-6">"The enterprise security features give us peace of mind. We can focus on growth knowing our data is protected by industry-leading security measures."</p>
+                        <div>
+                            <p class="font-semibold">David Wilson</p>
+                            <p class="text-gray-600">Security Manager, Enterprise Solutions</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="faq" class="py-24 bg-gray-50">
+                <div class="container mx-auto px-6">
+                    <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Frequently Asked Questions</h2>
+                    <div class="max-w-3xl mx-auto space-y-8">
+                        <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
+                            <h3 class="text-xl font-semibold mb-4">How long does implementation typically take?</h3>
+                            <p class="text-gray-600">Most clients are up and running within 2-3 weeks. Our dedicated implementation team works closely with you to ensure a smooth transition and proper system integration.</p>
+                        </div>
+
+                        <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
+                            <h3 class="text-xl font-semibold mb-4">What kind of support do you offer?</h3>
+                            <p class="text-gray-600">We provide 24/7 technical support through multiple channels including phone, email, and live chat. Our enterprise clients also get a dedicated account manager.</p>
+                        </div>
+
+                        <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
+                            <h3 class="text-xl font-semibold mb-4">Is my data secure?</h3>
+                            <p class="text-gray-600">Yes, we employ bank-grade encryption and follow industry-leading security protocols. Our system is SOC 2 Type II certified and compliant with GDPR, HIPAA, and other regulatory standards.</p>
+                        </div>
+
+                        <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
+                            <h3 class="text-xl font-semibold mb-4">Can I integrate with existing systems?</h3>
+                            <p class="text-gray-600">Our platform offers extensive API support and pre-built integrations with major business tools and software. Custom integrations are also available for enterprise clients.</p>
+                        </div>
+
+                        <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
+                            <h3 class="text-xl font-semibold mb-4">What's included in the free trial?</h3>
+                            <p class="text-gray-600">The 30-day free trial includes full access to all features, dedicated support, and implementation assistance. No credit card required to start.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="py-24 bg-indigo-900 text-white" style="background-image: url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1920'); background-size: cover; background-position: center;">
+                <div class="container mx-auto px-6">
+                    <div class="max-w-3xl mx-auto text-center">
+                        <h2 class="text-3xl md:text-4xl font-bold mb-8">Ready to Transform Your Business?</h2>
+                        <p class="text-lg text-indigo-200 mb-12">
+                            Join over 10,000 companies already experiencing the power of our platform. Start your free trial today and see the difference yourself.
+                        </p>
+                        <button class="bg-white text-indigo-900 px-8 py-4 rounded-full text-lg font-semibold hover:bg-indigo-50 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
+                            Start Free Trial
+                        </button>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="bg-gray-900 text-white py-16">
+            <div class="container mx-auto px-6">
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
+                    <div>
+                        <h3 class="text-xl font-bold mb-4">Lorem ipsum</h3>
+                        <p class="text-gray-400">
+                            Transforming businesses through innovative technology solutions since 2018.
+                        </p>
+                    </div>
+                    <div>
+                        <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+                        <ul class="space-y-2">
+                            <li><a href="#about" class="text-gray-400 hover:text-white transition-colors duration-300">About</a></li>
+                            <li><a href="#features" class="text-gray-400 hover:text-white transition-colors duration-300">Features</a></li>
+                            <li><a href="#contact" class="text-gray-400 hover:text-white transition-colors duration-300">Contact</a></li>
+                            <li><a href="https://IanSR86.github.io/lorem-ipsum-dolor-2025-07-21-vusqh/blog.html" class="text-gray-400 hover:text-white transition-colors duration-300">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="text-lg font-semibold mb-4">Legal</h4>
+                        <ul class="space-y-2">
+                            <li><a href="https://IanSR86.github.io/lorem-ipsum-dolor-2025-07-21-vusqh/privacy.html" class="text-gray-400 hover:text-white transition-colors duration-300">Privacy Policy</a></li>
+                            <li><a href="https://IanSR86.github.io/lorem-ipsum-dolor-2025-07-21-vusqh/terms.html" class="text-gray-400 hover:text-white transition-colors duration-300">Terms of Service</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="text-lg font-semibold mb-4">Connect</h4>
+                        <div class="flex space-x-4">
+                            <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300 transform hover:scale-110">
+                                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                            </a>
+                            <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300 transform hover:scale-110">
+                                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg>
+                            </a>
+                            <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300 transform hover:scale-110">
+                                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
+                    <p>&copy; 2024 Lorem ipsum dolor. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+                const mobileMenu = document.querySelector('header nav .mobile-menu');
+                
+                if (mobileMenuButton && mobileMenu) {
+                    mobileMenuButton.addEventListener('click', () => {
+                        mobileMenu.classList.toggle('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.toggle('fa-bars');
+                            icon.classList.toggle('fa-times');
+                        }
+                    });
+
+                    const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                    mobileMenuLinks.forEach(link => {
+                        link.addEventListener('click', () => {
+                            mobileMenu.classList.add('hidden');
+                            const icon = mobileMenuButton.querySelector('i');
+                            if (icon) {
+                                icon.classList.remove('fa-times');
+                                icon.classList.add('fa-bars');
+                            }
+                        });
+                    });
+                }
+            });
+        </script>
+    </body>
 </body>
 </html>
